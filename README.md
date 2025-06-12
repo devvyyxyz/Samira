@@ -44,6 +44,10 @@ On Arch based distributions, a bundling error may occur due to Tauri and linuxde
 ```
 NO_STRIP=true npm run tauri build
 ```
+If an error still occurs, run:
+```bash
+sudo pacman -S rust
+```
 
 ## Contributing
 Like its predecessors, Samira is open source and open to contributions. Documentation will follow in the near future. Please feel free to ask questions, open pull requests, and raise issues.
